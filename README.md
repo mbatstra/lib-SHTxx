@@ -51,3 +51,6 @@ SHT41/45: No specs given yet
 * Typical T Range/Accuracy: -40C..125C, 0.2C (0..65C)
 ### SHT41/45
 Data t.b.d. in datasheet
+
+## Author
+This software is written by [Tijs van Roon](https://github.com/knifter). It is free to use under the [MIT License](LICENSE).

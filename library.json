@@ -1,0 +1,28 @@
+{
+  "name": "lib-SHT3x",
+  "version": "1.0.0",
+  "description": "Arduino driver for Sensirion SHT30/SHT31/SHT35 and SHT40/SHT41/SHT45 humidity and temperature sensors over I2C. Covers both SHT3x and SHT4x generations. Wraps lib-TwoWireDevice.",
+  "keywords": ["sht31", "sht30", "sht35", "sht40", "sht4x", "humidity", "temperature", "i2c", "sensirion", "esp32", "arduino"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knifter/lib-SHT3x"
+  },
+  "authors": {
+    "name": "Tijs van Roon",
+    "url": "https://github.com/knifter",
+    "maintainer": true
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/knifter/lib-SHT3x",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "dependencies": [
+    {
+      "name": "lib-TwoWireDevice",
+      "version": "https://github.com/knifter/lib-TwoWireDevice"
+    }
+  ],
+  "build": {
+    "srcDir": "src"
+  }
+}
